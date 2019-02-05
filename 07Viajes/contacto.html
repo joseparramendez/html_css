@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head>
+    <title>Agencia De Viajes</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+     <link rel="stylesheet" type="text/css" href="css/estilos.css">
+     
+</head>
+
+<body>
+
+<div id="container">
+<!-- Encabesado -->
+<header>
+    <h1>
+        JOSE TOURS
+    </h1>
+</header>
+<nav>
+    <ul>
+        <li><a id="inicio_btn" href="index.html">Inicio</a></li>
+        <li><a id="destinos_btn" href="destinos.html">Destinos</a></li>
+        <li><a id="paquetes_btn" href="paquetes.html">Paquetes</a></li>
+        <li><a id="fotos_btn" href="fotos.html">Fotos</a></li>
+        <li><a id="videos_btn" href="videos.html">Videos</a></li>
+        <li><a id="contacto_btn" href="contacto.html">Contacto</a></li>
+    </ul>
+</nav>
+<!-- Principio del contenido -->
+<section>
+    <article id="formulario">
+    <form action="mail.php" method="post">
+        Nombre:<br>
+        <input type="text" name="nombre" class="campo"><br>
+        Correo:<br>
+        <input type="email" name="correo" class="campo"><br>
+        Telefono:<br>
+        <input type="tel" name="telefono" class="campo"><br>
+        Quiero viajar por:
+        <input type="radio" name="transporte" value="Avion">
+        Avion
+        <input type="radio" name="transporte" value="Barco">
+        Barco
+        <input type="radio" name="transporte" value="Tren">
+        Tren
+
+
+
+        Me interesa:<br>
+        <input type="checkbox" name="intereses[]" value="ciudades">
+        Ciudades<br>
+        <input type="checkbox" name="intereses[]" value="playas">
+        Playas<br>
+        <input type="checkbox" name="intereses[]" value="campamentos">
+        Campamentos<br>
+        <input type="checkbox" name="intereses[]" value="bares">
+        Bares<br>
+        <input type="checkbox" name="intereses[]" value="banos">
+        Banos<br>
+
+        Elige tu paquete:
+        <select name="paquetes">
+         <option value="Paquete llenes">Paquete llenes</option>
+         <option value="Paquete jodas">Paquete jodas</option>
+         <option value="Paquete cages">Paquete cages</option>
+        </select><br><br>
+
+        Comentarios:<br>
+        <textarea name="comentarios" class="comentarios">
+            
+        </textarea><br>
+        <input type="reset" value="Cancelar" class="boton">
+        <input type="submit" value="Enviar" class="boton">
+
+
+
+
+
+    </form>
+        
+    </article>
+</section>
+
+
+
+
+
+
+<!-- Fin del contenido -->
+
+<footer>foooter</footer>
+
+
+</div>
+
+
+
+
+
+</body>
+</html>

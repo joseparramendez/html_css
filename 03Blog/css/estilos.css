@@ -1,0 +1,132 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+#container{
+	width:960px;
+	margin:0 auto;
+	background-color: #fafafa;
+}
+
+header{
+	background-color: #ff6b6b;
+	height: 200px;
+}
+
+h1{
+	font-size:80px;
+	text-align: center;
+	color:#ffe66d;
+	line-height: 200px;
+	font-family:caliente;
+}
+
+@font-face{
+	src:url(../fonts/font.ttf);
+	font-family:caliente;
+}
+
+nav{
+	height:80px;
+	background-color: #00cecb;
+	text-align:center;
+	line-height: 80px;
+}
+
+nav a{
+	font-family:Helvetica;
+	text-decoration: none;
+	font-size:20px;
+	margin:0 20px;
+	color:#ffe66d;
+	text-transform: uppercase;
+	font-weight: 900;
+}
+
+nav a:hover{
+	color:#ff6b6b;
+}
+
+#submenu{
+	background-color: #ff6b6b;
+	height: 800px;
+	width:20%;
+	float:right;
+}
+
+#submenu ul{
+	list-style:none;
+}
+
+#submenu ul li a{
+	color:#000;
+	text-decoration: none;
+	font-family:Helvetica;
+	font-size:20px;
+	-webkit-transition:0.3s linear;
+
+}
+
+#submenu ul li{
+	margin:15px 10px;
+}
+
+#submenu ul li a:hover{
+	color:#fff;
+	margin-left:10px;
+}
+
+section{
+	width:758px;
+	background-color: #95ed18;
+	height: auto;
+	float:left;
+	padding-left:5px;
+
+}
+
+.foto{
+	width: 200px;
+	height: auto;
+	float:right;
+	margin-left:15px;
+
+}
+
+h3{
+	font-family:Helvetica;
+	font-weight: lighter;
+	font-size:25px;
+	margin:15px 0;
+}
+
+p{
+	font-size:12px;
+	font-family: Helvetica;
+	text-align: justify;
+}
+
+footer{
+	clear:both;
+	height: 50px;
+	background-color:#ff6b6b;
+	font-family: Helvetica;
+	text-align:center;
+	line-height: 50px;
+	font-size:16px;
+}
+
+.diferente{
+	background-color: #ecebe4;
+}
+
+
+
+
+
+
+
+
+
+

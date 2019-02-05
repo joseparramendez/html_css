@@ -1,0 +1,284 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#container{
+	width: 1080px;
+	margin: 0 auto;
+	background-color: #d8d8d8;
+}
+@font-face{
+	src:url(../font/Mayan.ttf);
+	font-family: logo;
+}
+@font-face{
+	src:url(../font/ELRIOTT2.TTF);
+	font-family: titulos;
+}
+body{
+
+}
+header{
+	height: 100px;
+	background-color: #ff5e5b;
+	float: left;
+}
+header h1{
+	font-family: logo !important;
+	width: 380px;
+	height: 100px;
+	font-size: 50px;
+	text-align: center;
+	color: #fff;
+	line-height: 100px;
+}
+nav{
+	width: 700px;
+	background-color: #ffed66 !important;
+	float: right;
+}
+nav ul li{
+	list-style: none;
+	font-family: titulos;
+	float: left;
+	font-size: 14px;
+}
+nav ul li a{
+	width: 116px;
+	height: 100px;
+	display: block;
+	line-height: 130px;
+	text-align: center;
+	text-decoration: none;
+	color: #ff5e5b;
+}
+nav ul li a:hover{
+	color: #00cecb;
+	background-color: #ff5e5b;
+}
+#inicio_btn{
+	background-image: url(../imagenes/inicio.png);
+	background-repeat: no-repeat;
+	background-size: 40px;
+	background-position: 35px 10px;
+}
+#inicio_btn:hover{
+	background-image: url(../imagenes/inicio-a.png);
+	background-repeat: no-repeat;
+	background-size: 40px;
+	background-position: 35px 10px;
+}
+#destinos_btn{
+	background-image: url(../imagenes/destinos.png);
+	background-repeat: no-repeat;
+	background-size: 40px;
+	background-position: 35px 10px;
+}
+#destinos_btn:hover{
+	background-image: url(../imagenes/destinos-a.png);
+	background-repeat: no-repeat;
+	background-size: 40px;
+	background-position: 35px 10px;
+}
+#paquetes_btn{
+	background-image: url(../imagenes/paquetes.png);
+	background-repeat: no-repeat;
+	background-size: 40px;
+	background-position: 35px 10px;
+}
+#paquetes_btn:hover{
+	background-image: url(../imagenes/paquetes-a.png);
+	background-repeat: no-repeat;
+	background-size: 40px;
+	background-position: 35px 10px;
+}
+#fotos_btn{
+	background-image: url(../imagenes/fotos.png);
+	background-repeat: no-repeat;
+	background-size: 40px;
+	background-position: 35px 10px;
+}
+#fotos_btn:hover{
+	background-image: url(../imagenes/fotos-a.png);
+	background-repeat: no-repeat;
+	background-size: 40px;
+	background-position: 35px 10px;
+}
+#videos_btn{
+	background-image: url(../imagenes/video.png);
+	background-repeat: no-repeat;
+	background-size: 40px;
+	background-position: 35px 10px;
+}
+#videos_btn:hover{
+	background-image: url(../imagenes/video-a.png);
+	background-repeat: no-repeat;
+	background-size: 40px;
+	background-position: 35px 10px;
+}
+#contacto_btn{
+	background-image: url(../imagenes/contacto.png);
+	background-repeat: no-repeat;
+	background-size: 40px;
+	background-position: 35px 10px;
+}
+#contacto_btn:hover{
+	background-image: url(../imagenes/contacto-a.png);
+	background-repeat: no-repeat;
+	background-size: 40px;
+	background-position: 35px 10px;
+}
+section{
+	clear: both;
+}
+#aire, #mar, #tierra{
+	width: 360px;
+	display: block;
+	text-align: center;
+	float: left;
+}
+#fila2 h2{
+	font-family: titulos;
+	height: 40px;
+	line-height: 40px;
+	background-color: #00cecb;
+	color: #000;
+	font-size: 25px;
+}
+#fila2 article img{
+	width: 100%;
+	height: auto;
+}
+#clima, #restaurantes, #hoteles, #entretenimmiento{
+	width: 254px;
+	float: left;
+	margin: 40px 2px 0 12px;
+}
+#fila3 h2{
+	text-align: center;
+	font-size: 15px;
+	background-color: #ff5e5b;
+	padding-top: 5px 0;
+}
+#fila3 p{
+	font-size: 13px;
+	text-align: justify;
+	padding: 0 5px;
+	margin: 20px 0;
+}
+#fila3 a{
+	width: 100%;
+	height: 30px;
+	background-color: #ffed66;
+	display: block;
+	text-align: center;
+	line-height: 30px;
+	font-size: 20px;
+	text-decoration: none;
+	color: #000;
+}
+#fila3 a:hover{
+	background-color: #ff5e5b;
+}
+.icon{
+	width: 60px;
+	height: 60px;
+	background-color: #ff5e5b;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	line-height: 60px;
+	border:solid thin #00cecb;
+	border-radius: 50% 50% 0px 0px;
+}
+#video{
+	width: 600px;
+	height: 455px;
+	float: left;
+	margin-top: 2px;
+}
+#listavideos{
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+#listavideos ul{
+	list-style: square;
+}
+#listavideos ul li a{
+	text-decoration: none;
+	display: block; 
+}
+#listavideos ul li a:hover{
+	color: #00cecb;
+}
+#videoyoutube{
+	padding-bottom: 30px;
+}
+.claro{
+	clear: both;
+}
+audio{
+	width: 100%;
+}
+table{
+	width: 90%;
+	font-size: 20px;
+	margin: 0 auto;
+	border-collapse: collapse;
+}
+td, th{
+	border: solid 1px #000;
+	padding-bottom: 10px;
+}
+#tabla{
+	padding: 50px;
+}
+th{
+	background-color: #000;
+	color: #fff;
+}
+caption{
+	font-size: 50px;
+	padding-bottom: 20px;
+	font-family: titulos;
+}
+tr:nth-child(even){
+	background-color: #fff;
+}
+#formulario{
+	width: 100%;
+	height: auto;
+}
+form{
+	width: 800px;
+	margin: 0 auto;
+	padding: 30px 0;
+	font-size: 18px;
+}
+.campo{
+	width: 600px;
+	height: 30px;
+	font-size: 15px;
+	border-radius: 4px 4px 4px 4px;
+}
+select{
+	width: 400px;
+	height: auto;
+	font-size: 18px;
+}
+.comentarios{
+	width: 600px;
+	height: 150px;
+	font-style: 15px;
+	border-radius: 5px 5px 5px 5px;
+}
+.boton{
+	width: 100px;
+	height: 30px
+	font-size:18px;
+}
+.boton:hover{
+	background-color: #000;
+	cursor: pointer;
+}
